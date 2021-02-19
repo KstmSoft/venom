@@ -573,18 +573,8 @@ export class SenderLayer extends ListenerLayer {
    */
   public async sendImageAsSticker(
     to: string,
-    path: string
+    b64: string
   ): Promise<SendStickerResult | false> {
-    let b64 = await downloadFileToBase64(path, [
-      'image/gif',
-      'image/png',
-      'image/jpg',
-      'image/jpeg',
-      'image/webp',
-    ]);
-    if (!b64) {
-      b64 = await fileToBase64(path);
-    }
     if (b64) {
       const buff = Buffer.from(
         b64.replace(/^data:image\/(png|jpe?g|webp|gif);base64,/, ''),
