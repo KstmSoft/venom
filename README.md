@@ -49,13 +49,6 @@ Documentation at https://orkestral.github.io/venom/index.html
 ```bash
 > npm i --save venom-bot
 ```
-
-or for [Nightly releases](https://github.com/orkestral/venom/releases/tag/nightly):
-
-```bash
-> npm i --save https://github.com/orkestral/venom/releases/download/nightly/venom-bot-nightly.tgz
-```
-
 ## Getting started
 
 ```javascript
