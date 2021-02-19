@@ -1,4 +1,4 @@
-# 🕷Venom Bot🕸
+# 🕷Venom Bot🕸 (Modified version for CuckBot)
 
 ![enter image description here](https://s2.click/venom.jpg)
 
